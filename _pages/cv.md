@@ -9,56 +9,34 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+Here is my full [CV](/files/dario_resume.pdf).
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+# Education
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **PhD Student**, *INRIA, Paris*, October 2023 - now
+* **MSc in Mathematics (Distinction)**, *University of Oxford, United Kingdom*, 2022 - 2023
+* **MSc in Applied Mathematics (Top 20%)**, *Ecole Polytechnique, France*, 2019 - 2022
+* **Preparatory Program MPSI/MP**, *Lycee Saint-louis, Paris, France*, 2017 - 2019
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+# Work Experience
 
-Publications
-======
+* **Quantitative research intern**, *Squarepoint Capital, London, United Kingdom*, March-August 2022
+* **Firmware engineer intern**, *Ledger, Paris, France*, June-September 2021
+* **R&D intern**, *Gendarmerie Elite Unit (GIGN), Versailles, France*, November-April 2020
+
+
+# Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
+# Talks
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching
-======
+# Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
