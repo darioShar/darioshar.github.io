@@ -8,7 +8,6 @@ date: 2024-07-26
 venue: 'arxiv'
 slidesurl: '/files/DLPM_Presentation.pdf' # 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://arxiv.org/abs/2407.18609'
-github: 'https://github.com/darioShar/DLPM'
 citation: 'Shariatian, D., Simsekli, U., & Durmus, A.O. (2024). Denoising Lévy Probabilistic Models. ArXiv, abs/2407.18609.'
 ---
 

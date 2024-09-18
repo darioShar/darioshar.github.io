@@ -15,7 +15,7 @@ Here is my full [CV](/files/dario_resume.pdf).
 
 * **PhD Student**, *INRIA, Paris*, October 2023 - now
 * **MSc in Mathematics (Distinction)**, *University of Oxford, United Kingdom*, 2022 - 2023
-* **MSc in Applied Mathematics (Top 20%)**, *Ecole Polytechnique, France*, 2019 - 2022
+* **MSc in Applied Mathematics**, *Ecole Polytechnique, France*, 2019 - 2022
 * **Preparatory Program MPSI/MP**, *Lycee Saint-louis, Paris, France*, 2017 - 2019
 
 # Work Experience
