@@ -24,7 +24,6 @@ Here is my full [CV](/files/dario_resume.pdf).
 * **Firmware engineer intern**, *Ledger, Paris, France*, June-September 2021
 * **R&D intern**, *Gendarmerie Elite Unit (GIGN), Versailles, France*, November-April 2020
 
-
 # Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
@@ -40,3 +39,5 @@ Here is my full [CV](/files/dario_resume.pdf).
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
+# Reviewer
+ICML24, NEURIPS24, AAAI25, TMLR, ICLR25
