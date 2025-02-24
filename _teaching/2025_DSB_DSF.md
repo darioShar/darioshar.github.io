@@ -4,7 +4,7 @@ collection: teaching
 type: Admission procedure
 permalink: # /teaching/2015-spring-teaching-1
 venue: "Ecole Polytechnique - HEC"
-date: 2024-2025
+date: 2025-01-01
 location: "Paris, France"
 ---
 
