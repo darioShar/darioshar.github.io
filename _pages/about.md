@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a 2nd year PhD student at INRIA Paris (Sierra Project-team) working under the supervision of [Umut Simsekli](https://www.di.ens.fr/umut.simsekli/) and [Alain Durmus](https://alain.perso.math.cnrs.fr). 
+I am a 2nd year PhD student at INRIA Paris ([Sierra Project team](https://sierra-mlopt.github.io), led by Francis Bach). I am working under the supervision of [Umut Simsekli](https://www.di.ens.fr/umut.simsekli/) and [Alain Durmus](https://alain.perso.math.cnrs.fr). 
 
 Before that, I obtained an MSc in Mathematics from the University of Oxford, and a BSc/MSc from Ecole Polytechnique. More information about professional and academic experiences can be found in my [CV](/files/dario_resume.pdf).
 
