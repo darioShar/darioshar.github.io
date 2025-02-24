@@ -26,7 +26,7 @@ Before that, I obtained an MSc in Mathematics from the University of Oxford, and
 
 # Publications
 <ul>{% for post in site.publications reversed %}
-  {% if post.collection == "conferences" %}
+  {% if post.category == "conferences" %}
     {% include archive-single-cv.html %}
   {% endif %}
 {% endfor %}</ul>
