@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2024-07-28-PDMP
 excerpt: 'We introduce a novel class of generative models based on piecewise deterministic Markov processes (PDMPs), which combine deterministic motion with random jumps. Like diffusions, PDMPs can be reversed in time. We derive explicit expressions for jump rates and kernels in the time-reversed processes and propose efficient training methods and approximate simulation techniques. Additionally, we provide bounds on the total variation distance between the data and model distributions, supported by promising numerical simulations.'
 date: 2024-07-26
-venue: The Thirty-Eighth Conference on Neural Information Processing Systems
+venue: The Thirty-Eighth Conference on Neural Information Processing Systems (NeurIPS)
 slidesurl: # 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://arxiv.org/abs/2407.19448'
 github: 'https://github.com/darioShar/PDMP'

@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2025-01-30-DLPM
 excerpt: 'This paper introduces a novel framework to use heavy-tailed noise in the denoising diffusion paradigm, which constitutes a generalization of the original DDPM method. Using heavy-tailed noise is shown to bring benefits in various contexts: heavy-tailed data distributions, better robustness to class imbalance, and smaller computational time.'
 date: 2025-01-30
-venue: The Thirteenth International Conference on Learning Representations
+venue: The Thirteenth International Conference on Learning Representations (ICLR)
 slidesurl: '/files/DLPM_Presentation.pdf' # 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://arxiv.org/abs/2407.18609'
 github: 'https://github.com/darioShar/DLPM'
