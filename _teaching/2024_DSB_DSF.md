@@ -4,10 +4,10 @@ collection: teaching
 type: Admission procedure
 permalink: # /teaching/2015-spring-teaching-1
 venue: "Ecole Polytechnique - HEC"
-date: 2024-03-14
-location: "Palaiseau, France"
+date: 2023-2025
+location: "Paris, France"
 ---
 
-Assisted the admission team during the multiple rounds of the selection process by conducting the mathematical interviews.
+Assisting the admission team during the multiple rounds of the selection process by conducting the mathematical interviews.
 
 [See program](https://www.hec.edu/en/master-s-programs/double-degree-programs/double-degree-data-finance-x-hec)

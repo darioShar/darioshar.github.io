@@ -21,10 +21,10 @@ repository               : "darioShar/darioshar.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "dario.jpeg"
+  avatar           : "dario.png"
   name             : "Dario Shariatian"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Student, working on generative models"
+  bio              : "PhD Student, methodologies for generative models"
   location         : "Paris, France"
   employer         : "INRIA"
   uri              : # URL
@@ -65,7 +65,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter          : dario_sha # Username for X / Twitter
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username

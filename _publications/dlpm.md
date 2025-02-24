@@ -5,7 +5,7 @@ category: preprints
 permalink: /publication/2024-07-26-DLPM
 excerpt: 'This paper introduces a novel framework to use heavy-tailed noise in the denoising diffusion paradigm, which constitutes a generalization of the original DDPM method. Using heavy-tailed noise is shown to bring benefits in various contexts: heavy-tailed data distributions, better robustness to class imbalance, and smaller computational time.'
 date: 2024-07-26
-venue: 'arxiv'
+venue: ICLR 2025
 slidesurl: '/files/DLPM_Presentation.pdf' # 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://arxiv.org/abs/2407.18609'
 github: 'https://github.com/darioShar/DLPM'

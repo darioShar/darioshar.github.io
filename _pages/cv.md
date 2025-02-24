@@ -38,6 +38,6 @@ Here is my full [CV](/files/dario_resume.pdf).
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 # Reviewer
-ICML24, NEURIPS24, AAAI25, TMLR, ICLR25
+ICML24, NEURIPS24, AAAI25, TMLR, ICLR25, ICML25
