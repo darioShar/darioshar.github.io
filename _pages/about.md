@@ -15,7 +15,18 @@ Before that, I obtained an MSc in Mathematics from the University of Oxford, and
 - [Here](https://docs.google.com/document/d/1XxFj70hNiBjkjQEWdlCd2U499FIhGfAiaW9Ud5xz_tE/edit?usp=sharing) is a selection of relevant articles to inspire presentations and discussions
 - [Here](https://docs.google.com/document/d/1sjmmSj1XZW126yRTvy56WnQnU8vZqqdKuOVbKOXXjXw/edit?usp=sharing) is a schedule of upcoming sessions and potential topics.
 
+
+# Preprints
+
+<ul>{% for post in site.publications reversed %}
+  {% if post.category == "preprints" %}
+    {% include archive-single-cv.html %}
+  {% endif %}
+{% endfor %}</ul>
+
 # Publications
 <ul>{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
+  {% if post.collection == "conferences" %}
+    {% include archive-single-cv.html %}
+  {% endif %}
 {% endfor %}</ul>
