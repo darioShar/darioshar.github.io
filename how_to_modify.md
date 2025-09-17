@@ -5,7 +5,7 @@ This site uses Jekyll (the Academic Pages theme) and is built automatically by G
 ## Change the main page
 1. Edit `_pages/about.md` – this file is published at the site root (`/`).
 2. Keep the YAML front matter at the top (between the `---` lines) and edit the Markdown body below it.
-3. Use standard Markdown for text and lists. If you do not need the Liquid loops that list publications/papers (`{% for post ... %}`), you can remove or move them just like normal Markdown blocks.
+3. Use standard Markdown for text and lists. If you do not need the Liquid loops that list publications or papers, you can remove or move them just like normal Markdown blocks.
 4. Commit and push the change to `main`. GitHub Pages will rebuild the site; the update is live once the Actions job finishes.
 
 ## Add a news update
