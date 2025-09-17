@@ -217,6 +217,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  mini_projects:
+    output: true
+    permalink: /mini-projects/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
@@ -264,6 +267,14 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _mini_projects
+  - scope:
+      path: ""
+      type: mini_projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
   # _news
   - scope:
       path: ""
