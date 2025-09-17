@@ -33,6 +33,9 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
+    {% if post.author %}
+      <p class="archive__item-author">{{ post.author }}</p>
+    {% endif %}
     
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
@@ -52,36 +55,14 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.citation and post.paperurl and post.slidesurl and post.github %}
-    <p> {{ post.citation }}<br /><a href="{{ post.paperurl }}">See paper</a> | <a href="{{ post.slidesurl }}">See slides</a> | <a href="{{ post.github }}">GitHub Repository</a></p>
-    {% elsif post.citation and post.paperurl and post.github %}
-      <p> {{ post.citation }}<br /><a href="{{ post.paperurl }}">See paper</a> | <a href="{{ post.github }}">GitHub Repository</a></p>
-    {% elsif post.citation and post.slidesurl and post.github %}
-      <p> {{ post.citation }}<br /><a href="{{ post.slidesurl }}">See slides</a> | <a href="{{ post.github }}">GitHub Repository</a></p>
-    {% elsif post.citation and post.github %}
-      <p> {{ post.citation }}<br /><a href="{{ post.github }}">GitHub Repository</a></p>
-    {% elsif post.paperurl and post.slidesurl and post.github %}
-      <p><a href="{{ post.paperurl }}">See paper</a> | <a href="{{ post.slidesurl }}">See slides</a> | <a href="{{ post.github }}">GitHub Repository</a></p>
-    {% elsif post.paperurl and post.github %}
-      <p><a href="{{ post.paperurl }}">See paper</a> | <a href="{{ post.github }}">GitHub Repository</a></p>
-    {% elsif post.slidesurl and post.github %}
-      <p><a href="{{ post.slidesurl }}">See slides</a> | <a href="{{ post.github }}">GitHub Repository</a></p>
-    {% elsif post.github %}
-      <p><a href="{{ post.github }}">GitHub Repository</a></p>
-    {% elsif post.citation and post.paperurl and post.slidesurl %}
-      <p> {{ post.citation }}<br /><a href="{{ post.paperurl }}">See paper</a> | <a href="{{ post.slidesurl }}">See slides</a></p>
-    {% elsif post.citation and post.paperurl %}
-      <p> {{ post.citation }}<br /><a href="{{ post.paperurl }}">See paper</a></p>
-    {% elsif post.citation and post.slidesurl %}
-      <p> {{ post.citation }}<br /><a href="{{ post.slidesurl }}">See slides</a></p>
-    {% elsif post.citation %}
-      <p> {{ post.citation }}</p>
-    {% elsif post.paperurl and post.slidesurl %}
-      <p><a href="{{ post.paperurl }}">See paper</a> | <a href="{{ post.slidesurl }}">See slides</a></p>
-    {% elsif post.paperurl %}
-      <p><a href="{{ post.paperurl }}">See paper</a></p>
-    {% elsif post.slidesurl %}
-      <p><a href="{{ post.slidesurl }}">See slides</a></p>
+    {% capture link_parts %}
+      {% if post.paperurl %}<a href="{{ post.paperurl }}">See paper</a>{% endif %}
+      {% if post.slidesurl %}{% if post.paperurl %} | {% endif %}<a href="{{ post.slidesurl }}">See slides</a>{% endif %}
+      {% if post.github %}{% if post.paperurl or post.slidesurl %} | {% endif %}<a href="{{ post.github }}">GitHub Repository</a>{% endif %}
+    {% endcapture %}
+    {% assign link_parts = link_parts | strip %}
+    {% if link_parts != '' %}
+      <p>{{ link_parts }}</p>
     {% endif %}
 
   </article>
