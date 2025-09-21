@@ -57,7 +57,7 @@
 
 /* Compact, classy conference chip */
 .venue-badge {
-  --venue-h: 220; /* default hue fallback */
+  --venue-h: 0; /* default hue fallback (red) */
   --venue-bg: hsl(var(--venue-h), 90%, 96%);
   --venue-border: hsl(var(--venue-h), 30%, 80%);
   --venue-text: hsl(var(--venue-h), 35%, 30%);
@@ -72,13 +72,4 @@
 .archive__item.pub { --venue-accent: hsl(var(--venue-h), 55%, 55%); }
 .archive__item.pub { border-left-color: var(--venue-accent); }
 
-/* Optional: per-venue hues (tweak to taste) */
-[data-venue="neurips"], .venue--neurips, .venue--nips { --venue-h: 210; }   /* blue-ish */
-[data-venue="icml"], .venue--icml { --venue-h: 150; }                       /* green */
-[data-venue="iclr"], .venue--iclr { --venue-h: 270; }                       /* violet */
-[data-venue="cvpr"], .venue--cvpr { --venue-h: 200; }                       /* teal-blue */
-[data-venue="eccv"], .venue--eccv { --venue-h: 330; }                       /* pink */
-[data-venue="aistats"], .venue--aistats { --venue-h: 190; }                 /* cyan */
-[data-venue="kdd"], .venue--kdd { --venue-h: 20; }                          /* orange */
-[data-venue="uai"], .venue--uai { --venue-h: 260; }                         /* purple */
-/* Fallback stays neutral if a venue isn’t mapped */
+/* Optional per-venue overrides removed; all venues share the default red hue */
