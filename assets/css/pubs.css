@@ -1,0 +1,41 @@
+/* --- Publications: simple, elegant, conference-forward --- */
+.pub__row { list-style: none; margin: 0; padding: 0; }
+.pub { padding-left: .875rem; border-left: 3px solid var(--venue-accent, #e6e8eb); }
+
+.pub__head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .35rem;
+}
+@media (min-width: 40em) {
+  .pub__head { flex-direction: row; align-items: baseline; justify-content: space-between; }
+}
+
+.pub__title { margin: 0; font-weight: 600; line-height: 1.25; }
+.pub__title a { text-decoration: none; border-bottom: 1px solid transparent; }
+.pub__title a:hover { border-bottom-color: currentColor; }
+.pub__permalink { margin-left: .25rem; }
+.pub__authors { margin: .25rem 0 0 0; color: var(--mm-muted-text, #6b7280); }
+
+/* Left accent color (scopes a safe default) */
+.archive__item.pub {
+  --venue-h: 0; /* tweak: 210=blue, 150=green, 270=violet... */
+  --venue-accent: hsl(var(--venue-h), 55%, 55%);
+  border-left-color: var(--venue-accent);
+}
+
+/* Compact conference badge */
+.venue-badge {
+  --venue-h: 0;
+  --venue-bg: hsl(var(--venue-h), 90%, 96%);
+  --venue-border: hsl(var(--venue-h), 30%, 80%);
+  --venue-text: hsl(var(--venue-h), 35%, 30%);
+  --venue-accent: hsl(var(--venue-h), 55%, 55%);
+
+  display: inline-flex; align-items: center; gap: .35rem;
+  padding: .18rem .55rem; border-radius: 999px;
+  font-size: .72rem; font-weight: 600; letter-spacing: .02em; text-transform: uppercase;
+  background: var(--venue-bg); border: 1px solid var(--venue-border); color: var(--venue-text);
+  white-space: nowrap;
+}
