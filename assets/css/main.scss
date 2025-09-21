@@ -39,3 +39,46 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* --- Publications: simple, elegant, conference-forward --- */
+.pub__row { list-style: none; margin: 0; padding: 0; }
+.pub { padding-left: .875rem; border-left: 3px solid var(--venue-accent, #e6e8eb); }
+.pub__head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .35rem;
+}
+.pub__title { margin: 0; font-weight: 600; line-height: 1.25; }
+.pub__title a { text-decoration: none; border-bottom: 1px solid transparent; }
+.pub__title a:hover { border-bottom-color: currentColor; }
+.pub__permalink { margin-left: .25rem; }
+.pub__authors { margin: .25rem 0 0 0; color: var(--mm-muted-text, #6b7280); }
+
+/* Compact, classy conference chip */
+.venue-badge {
+  --venue-h: 220; /* default hue fallback */
+  --venue-bg: hsl(var(--venue-h), 90%, 96%);
+  --venue-border: hsl(var(--venue-h), 30%, 80%);
+  --venue-text: hsl(var(--venue-h), 35%, 30%);
+  --venue-accent: hsl(var(--venue-h), 55%, 55%);
+
+  display: inline-flex; align-items: center; gap: .35rem;
+  padding: .18rem .55rem; border-radius: 999px;
+  font-size: .72rem; font-weight: 600; letter-spacing: .02em; text-transform: uppercase;
+  background: var(--venue-bg); border: 1px solid var(--venue-border); color: var(--venue-text);
+  white-space: nowrap;
+}
+.archive__item.pub { --venue-accent: hsl(var(--venue-h), 55%, 55%); }
+.archive__item.pub { border-left-color: var(--venue-accent); }
+
+/* Optional: per-venue hues (tweak to taste) */
+[data-venue="neurips"], .venue--neurips, .venue--nips { --venue-h: 210; }   /* blue-ish */
+[data-venue="icml"], .venue--icml { --venue-h: 150; }                       /* green */
+[data-venue="iclr"], .venue--iclr { --venue-h: 270; }                       /* violet */
+[data-venue="cvpr"], .venue--cvpr { --venue-h: 200; }                       /* teal-blue */
+[data-venue="eccv"], .venue--eccv { --venue-h: 330; }                       /* pink */
+[data-venue="aistats"], .venue--aistats { --venue-h: 190; }                 /* cyan */
+[data-venue="kdd"], .venue--kdd { --venue-h: 20; }                          /* orange */
+[data-venue="uai"], .venue--uai { --venue-h: 260; }                         /* purple */
+/* Fallback stays neutral if a venue isn’t mapped */

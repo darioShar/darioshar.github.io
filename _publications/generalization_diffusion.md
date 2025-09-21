@@ -1,11 +1,11 @@
 ---
-title: "Algorithm- and Data-Dependent Generalization Bounds for Score-Based Generative Models"
+title: "Algorithm and Data Dependent Generalization Bounds for Score-Based Generative Models"
 collection: publications
-category: preprints
-permalink: /publication/2025-06-04-Generalization
+category: conferences
+permalink: /publication/2025-09-19-Generalization
 excerpt: 'This paper studies the generalization property of diffusion models through the lens of statistical learning. We develop a perspective that enables using existing tools to characterize the generalization ability of these generative models.'
-date: 2025-06-04
-venue: arxiv
+date: 2025-09-19
+venue: NeurIPS 2025
 # slidesurl: '/files/DLPM_Presentation.pdf' # 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://www.arxiv.org/abs/2506.03849'
 github: 'https://github.com/darioShar/GeneralizationDiffusion'
