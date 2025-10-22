@@ -1,9 +1,9 @@
 ---
-title: "Discrete Markov Probabilistic Models: An Improved Discrete Score-Based Framework with sharp convergence bounds under minimal assumptions"
+title: "Bit-Level Discrete Diffusion with Markov Probabilistic Models: An Improved Framework with Sharp Convergence Bounds under Minimal Assumptions"
 collection: publications
 category: conferences
 permalink: /publication/2025-02-11-DMPM
-excerpt: 'This paper introduces a novel framework for discrete data generation on the hypercube $\{0, 1\}^d$. We establish theoretical and methodological alignment with classical continuous score-based modesls. We demonstrate the effectiveness of this approach on low and high dimensional datasets (Binary MNIST), beating other state-of-the-art methods like Discrete Flow Matching'
+excerpt: 'This paper introduces a novel framework for discrete data generation on the hypercube $\{0, 1\}^d$. We establish theoretical and methodological alignment with classical continuous score-based modesls. We demonstrate the effectiveness of this approach on low and high dimensional datasets (Binary MNIST), beating other state-of-the-art methods like Discrete Flow Matching or MD4'
 date: 2025-02-11
 venue: ICML 2025
 # slidesurl: '/files/DLPM_Presentation.pdf' # 'http://academicpages.github.io/files/slides1.pdf'

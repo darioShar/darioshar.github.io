@@ -1,5 +1,5 @@
 ---
-title: "Denoising Levy Probabilistic Models (DLPM)"
+title: "Heavy-Tailed Diffusion withDenoising Levy Probabilistic Models"
 collection: publications
 category: conferences
 permalink: /publication/2025-01-30-DLPM
