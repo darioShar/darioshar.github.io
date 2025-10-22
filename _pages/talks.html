@@ -11,6 +11,10 @@ author_profile: true
 
 {% endif %}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+{% if site.features.show_talks %}
+  {% for post in site.talks reversed %}
+    {% include archive-single-talk.html %}
+  {% endfor %}
+{% else %}
+  <p>Talks are currently hidden.</p>
+{% endif %}

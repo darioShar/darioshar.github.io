@@ -84,6 +84,13 @@ publication_category:
   conferences:
     title: 'Conference Papers'
 
+features:
+  show_news: false
+  show_talks: false
+  show_teaching: false
+  show_reviewer_commitment: false
+  show_cv_sections: false
+
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)

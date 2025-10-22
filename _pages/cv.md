@@ -11,6 +11,7 @@ redirect_from:
 
 Here is my full [CV](/files/dario_resume.pdf).
 
+{% if site.features.show_cv_sections %}
 # Education
 
 * **PhD Student**, *INRIA, Paris*, October 2023 - now
@@ -38,6 +39,9 @@ Here is my full [CV](/files/dario_resume.pdf).
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+{% endif %}
 
+{% if site.features.show_reviewer_commitment %}
 # Reviewer
 ICML24, NEURIPS24, AAAI25, TMLR, ICLR25, ICML25
+{% endif %}

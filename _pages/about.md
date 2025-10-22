@@ -31,6 +31,7 @@ Before that, I obtained an MSc in Mathematics from the University of Oxford, and
   {% endif %}
 {% endfor %}</ul>
 
+{% if site.features.show_news %}
 # News
 
 {% assign news_items = site.news | sort: "date" | reverse %}
@@ -39,3 +40,4 @@ Before that, I obtained an MSc in Mathematics from the University of Oxford, and
   <li><strong>{{ item.date | date: "%b %d, %Y" }}:</strong> {{ item.excerpt | default: item.content | markdownify | strip_html }}</li>
 {% endfor %}
 </ul>
+{% endif %}

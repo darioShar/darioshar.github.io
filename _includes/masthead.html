@@ -7,13 +7,24 @@
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          {% assign features = site.features | default: {} %}
           {% for link in site.data.navigation.main %}
+            {% assign hide_link = false %}
+            {% if link.url == '/news/' and features.show_news == false %}
+              {% assign hide_link = true %}
+            {% elsif link.url == '/talks/' and features.show_talks == false %}
+              {% assign hide_link = true %}
+            {% elsif link.url == '/teaching/' and features.show_teaching == false %}
+              {% assign hide_link = true %}
+            {% endif %}
+            {% unless hide_link %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% endunless %}
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
