@@ -61,6 +61,9 @@ on:
       - "!README.md"
   workflow_dispatch:
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 permissions:
   contents: write
 
@@ -70,24 +73,41 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3.5"
           bundler-cache: true
       - name: Setup Python 🐍
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.13"
           cache: "pip" # caching pip dependencies
       - name: Update _config.yml ⚙️
-        uses: fjogeleit/yaml-update-action@main
-        with:
-          commitChange: false
-          valueFile: "_config.yml"
-          propertyPath: "giscus.repo"
-          value: ${{ github.repository }}
+        run: |
+          python - <<'PY'
+          import os
+          from pathlib import Path
+
+          repo = os.environ["GITHUB_REPOSITORY"]
+          path = Path("_config.yml")
+          lines = path.read_text().splitlines()
+
+          in_giscus = False
+          for i, line in enumerate(lines):
+              if line.startswith("giscus:"):
+                  in_giscus = True
+                  continue
+              if in_giscus and line and not line.startswith(" "):
+                  in_giscus = False
+              if in_giscus and line.lstrip().startswith("repo:"):
+                  indent = line[: len(line) - len(line.lstrip())]
+                  lines[i] = f"{indent}repo: {repo}"
+                  break
+
+          path.write_text("\n".join(lines) + "\n")
+          PY
       - name: Install and Build 🔧
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick

@@ -2,6 +2,7 @@
 layout: about
 title: about
 permalink: /
+description: PhD student at INRIA Paris working on diffusion-based generative models, statistics, and machine learning.
 subtitle: <a href='https://www.inria.fr/en'>INRIA Paris</a> · Sierra Project Team
 
 profile:
