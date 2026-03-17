@@ -64,6 +64,13 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    {% if page.epistemic_stance %}
+      <h2>{{ page.epistemic_stance_title | default: 'Epistemic Stance' }}</h2>
+      <div class="epistemic-stance">
+        {{ page.epistemic_stance | markdownify }}
+      </div>
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">
