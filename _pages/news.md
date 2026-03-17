@@ -1,19 +1,9 @@
 ---
-layout: archive
-title: "News"
+layout: page
+title: news
 permalink: /news/
-author_profile: true
-collection: news
+nav: false
+nav_order: 3
 ---
 
-{% include base_path %}
-
-{% if site.features.show_news %}
-  {% assign news_items = site.news | sort: "date" | reverse %}
-  {% for item in news_items %}
-    {% assign post = item %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% else %}
-  <p>News updates are currently hidden.</p>
-{% endif %}
+{% include news.liquid %}

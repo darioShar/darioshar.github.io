@@ -1,0 +1,147 @@
+cv:
+  name: Dario Shariatian
+  label: PhD Student
+  email: name . surname AT inria . fr
+  location: Paris, France
+  image: ""
+  summary: Developing methodologies for diffusion-based generative models.
+
+  social_networks:
+    - network: GitHub
+      username: darioShar
+    - network: LinkedIn
+      username: dario-shariatian-900989204
+    - network: X
+      username: dario_sha
+
+  sections:
+    Education:
+      - institution: INRIA Paris
+        location: Paris, France
+        area: Machine Learning
+        studyType: PhD
+        start_date: 2023-10
+        end_date: present
+
+      - institution: University of Oxford
+        location: Oxford, United Kingdom
+        area: Mathematics
+        studyType: MSc (Distinction)
+        start_date: 2022
+        end_date: 2023
+
+      - institution: Ecole Polytechnique
+        location: Palaiseau, France
+        area: Applied Mathematics
+        studyType: BSc/MSc
+        start_date: 2019
+        end_date: 2022
+
+      - institution: Lycee Saint-Louis
+        location: Paris, France
+        area: MPSI/MP Preparatory Program
+        studyType: Preparatory Program
+        start_date: 2017
+        end_date: 2019
+
+    Experience:
+      - company: INRIA Paris (Sierra Team)
+        position: PhD Student
+        location: Paris, France
+        start_date: 2023-10
+        end_date: present
+        summary: Supervised by Umut Simsekli and Alain Durmus on diffusion-based generative modeling.
+
+      - company: Sakana AI
+        position: Research Intern
+        location: Tokyo, Japan
+        start_date: 2025-06
+        end_date: 2025-09
+        summary: Internship advised by Stefano Peluchetti.
+
+      - company: Squarepoint Capital
+        position: Quantitative Research Intern
+        location: London, United Kingdom
+        start_date: 2022-03
+        end_date: 2022-08
+
+      - company: Ledger
+        position: Firmware Engineer Intern
+        location: Paris, France
+        start_date: 2021-06
+        end_date: 2021-09
+
+      - company: GIGN
+        position: R&D Intern
+        location: Versailles, France
+        start_date: 2019-11
+        end_date: 2020-04
+
+    Publications:
+      - title: Heavy-Tailed Diffusion with Denoising Levy Probabilistic Models
+        authors:
+          - Dario Shariatian
+          - Umut Simsekli
+          - Alain Durmus
+        publisher: ICLR
+        releaseDate: 2025-01-30
+        url: https://arxiv.org/abs/2407.18609
+
+      - title: Bit-Level Discrete Diffusion with Markov Probabilistic Models
+        authors:
+          - Dario Shariatian
+          - Lan Thi Ngoc Pham
+          - Axel Ocello
+          - Giovanni Conforti
+          - Alain Durmus
+        publisher: ICML
+        releaseDate: 2025-02-11
+        url: https://arxiv.org/abs/2502.07939
+
+      - title: Algorithm and Data Dependent Generalization Bounds for Score-Based Generative Models
+        authors:
+          - Dario Shariatian
+          - Baptiste Dupuis
+          - Mehdi Haddouche
+          - Alain Durmus
+          - Umut Simsekli
+        publisher: NeurIPS
+        releaseDate: 2025-09-19
+        url: https://arxiv.org/abs/2506.03849
+
+      - title: Latent Discrete Diffusion Models
+        authors:
+          - Dario Shariatian
+          - Alain Durmus
+          - Stefano Peluchetti
+        publisher: arXiv
+        releaseDate: 2025-10-18
+        url: https://arxiv.org/abs/2510.18114
+
+      - title: Piecewise Deterministic Generative Models
+        authors:
+          - Andrea Bertazzi
+          - Dario Shariatian
+          - Alain Durmus
+          - Umut Simsekli
+          - Eric Moulines
+        publisher: NeurIPS
+        releaseDate: 2024-07-26
+        url: https://arxiv.org/abs/2407.19448
+
+    Teaching:
+      - name: Numerical Analysis MAA106 (TA)
+        date: 2024
+        summary: TA for first-year numerical analysis course at Ecole Polytechnique.
+
+      - name: Master X-HEC Data Science and AI for Business/Finance Admissions
+        date: 2024
+        summary: Conducted mathematical interviews during multiple admission rounds.
+
+      - name: Master X-HEC Data Science and AI for Business/Finance Admissions
+        date: 2025
+        summary: Conducted mathematical interviews during multiple admission rounds.
+
+    Service:
+      - name: Reviewer
+        summary: ICML 2024, NeurIPS 2024, AAAI 2025, TMLR, ICLR 2025, ICML 2025.

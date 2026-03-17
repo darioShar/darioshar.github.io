@@ -1,0 +1,11 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+cv_pdf: /assets/pdf/dario_resume.pdf
+email: # keep empty to avoid exposing a raw mailto link
+scholar_userid: KJMzBTwAAAAJ
+github_username: darioShar
+linkedin_username: dario-shariatian-900989204
+x_username: dario_sha
+work_url: https://sierra-mlopt.github.io
+rss_icon: true

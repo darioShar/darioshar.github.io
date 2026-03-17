@@ -1,0 +1,11 @@
+github_users:
+  - darioShar
+
+repo_description_lines_max: 2
+
+github_repos:
+  - darioShar/DLPM
+  - darioShar/DMPM
+  - darioShar/PDMP
+  - darioShar/GeneralizationDiffusion
+  - darioShar/EOTE_vs_MLE

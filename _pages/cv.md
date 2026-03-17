@@ -1,47 +1,12 @@
 ---
-layout: archive
-title: "CV"
+layout: cv
 permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
+title: CV
+nav: false
+nav_order: 8
+cv_pdf: /assets/pdf/dario_resume.pdf # you can also use external links here
+cv_format: rendercv # options: rendercv, jsonresume
+description: Academic CV, publications, and professional experience.
+toc:
+  sidebar: left
 ---
-
-{% include base_path %}
-
-Here is my full [CV](/files/dario_resume.pdf).
-
-{% if site.features.show_cv_sections %}
-# Education
-
-* **PhD Student**, *INRIA, Paris*, October 2023 - now
-* **MSc in Mathematics (Distinction)**, *University of Oxford, United Kingdom*, 2022 - 2023
-* **MSc in Applied Mathematics**, *Ecole Polytechnique, France*, 2019 - 2022
-* **Preparatory Program MPSI/MP**, *Lycee Saint-louis, Paris, France*, 2017 - 2019
-
-# Work Experience
-
-* **Quantitative research intern**, *Squarepoint Capital, London, United Kingdom*, March-August 2022
-* **Firmware engineer intern**, *Ledger, Paris, France*, June-September 2021
-* **R&D intern**, *Gendarmerie Elite Unit (GIGN), Versailles, France*, November-April 2020
-
-# Publications
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-# Talks
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-# Teaching
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-{% endif %}
-
-{% if site.features.show_reviewer_commitment %}
-# Reviewer
-ICML24, NEURIPS24, AAAI25, TMLR, ICLR25, ICML25
-{% endif %}

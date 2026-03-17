@@ -11,3 +11,6 @@ github: 'https://github.com/darioShar/Ellpitic-Curve-Cryptography'
 ---
 
 Recent studies show that Neural ODEs are more robust against adversarial attacks than traditional DNNs, but as complexity increases, concerns about robustness and expressivity arise, prompting exploration of stochastic noise regularization.
+
+- Report: [Neural ODEs Report](/files/neural_odes_paper.pdf)
+- Code: [GitHub](https://github.com/darioShar/Ellpitic-Curve-Cryptography)
