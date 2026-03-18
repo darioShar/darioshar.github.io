@@ -15,11 +15,11 @@ profile:
     <p>Paris, France</p>
 
 selected_papers: true
-epistemic_stance_title: Epistemic Stance
-epistemic_stance: |
-  I see contemporary machine learning as a field in which our understanding of the main objects is still only partially stabilized, e.g., as underlined by Zico Kolter’s [lukewarm defense of alchemy](https://neurips.cc/virtual/2024/107918). In that context, I am drawn to an open, empirical, pragmatic style of research: one that values useful abstractions, careful experiments, and derived methodological fertility more than prematurely complete theories or overly idealized conceptual pictures, risking transfiguration into naive ontological claims. Theory still has a role to play for me, but less as a source of final closure than as one tool among others for producing perspectives that clarify, predict, and open new lines of work.
+# epistemic_stance_title: Epistemic Stance
+# epistemic_stance: |
+#   I see contemporary machine learning as a field in which our understanding of the main objects is still only partially stabilized, e.g., as underlined by Zico Kolter’s [lukewarm defense of alchemy](https://neurips.cc/virtual/2024/107918). In that context, I am drawn to an open, empirical, pragmatic style of research: one that values useful abstractions, careful experiments, and derived methodological fertility more than prematurely complete theories or overly idealized conceptual pictures, risking transfiguration into naive ontological claims. Theory still has a role to play for me, but less as a source of final closure than as one tool among others for producing perspectives that clarify, predict, and open new lines of work.
 
-  In this sense, the epistemic situation of machine learning seems quite different from that of more settled domains of fundamental science, and equally distinct from research traditions governed more strongly by internal ideals of conceptual or aesthetic completion. What matters, in the end, is not elegance alone, but the capacity of a perspective to remain answerable to phenomena while generating genuinely new understanding.
+#   In this sense, the epistemic situation of machine learning seems quite different from that of more settled domains of fundamental science, and equally distinct from research traditions governed more strongly by internal ideals of conceptual or aesthetic completion. What matters, in the end, is not elegance alone, but the capacity of a perspective to remain answerable to phenomena while generating genuinely new understanding.
 social: true
 
 announcements:
