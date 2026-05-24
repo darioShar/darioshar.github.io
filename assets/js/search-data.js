@@ -579,6 +579,16 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-09-19-generalization-neurips/";
+            },},{id: "news-uniform-diffusion-models-revisited-on-arxiv",
+          title: 'Uniform Diffusion Models Revisited on arXiv',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-05-21-uniform-diffusion-arxiv/";
+            },},{id: "news-ladd-accepted-to-spigm-icml",
+          title: 'LADD Accepted to SPIGM@ICML',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-05-24-ladd-spigm/";
             },},{id: "projects-an-alternative-to-the-log-likelihood-with-entropic-optimal-transport",
           title: 'An Alternative to the Log-Likelihood with Entropic Optimal Transport',
           description: "Master&#39;s thesis work on Sinkhorn-EM and robust parameter estimation.",
