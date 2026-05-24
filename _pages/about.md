@@ -37,9 +37,9 @@ I am a final-year PhD student at INRIA Paris ([Sierra Project Team](https://sier
 
 Before that, I obtained an MSc in Mathematics from the University of Oxford and a BSc/MSc from Ecole Polytechnique.
 
-My work focuses broadly on **methodology for generative models**, especially continuous and discrete diffusion, with an interest in the interplay between probabilistic structure, empirical behavior, and scalable experimentation. 
+My work focuses on **methodology for generative models**, especially continuous and discrete diffusion models.
 
-At the moment, I am especially interested in discrete diffusion models, as a compelling route toward faster generation, enabling multi-token generation per network call (see, e.g., [Mercury](https://www.inceptionlabs.ai/blog/introducing-mercury-2)). Yet, they admit important unresolved limitations, both algorithmic and structural, leaving substantial room for new ideas.
+At the moment, I am especially interested in discrete diffusion models as a compelling route toward faster generation, enabling multi-token generation per network call (see, e.g., [Mercury](https://www.inceptionlabs.ai/blog/introducing-mercury-2)). Yet, they admit important unresolved limitations, leaving substantial room for new ideas.
 
 <!-- For instance, I am interested in distillation of such models; trajectory-based methods appear less adequate because of the necessary factored modelling choice. This fundamentally differs from the continuous setting, where you can (more or less) pushforward any base distribution $p_0$ to a target distribution $p_1$ with a smooth function (up to regularity constraints). Work in progress! -->
 

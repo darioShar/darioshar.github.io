@@ -4,6 +4,8 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - darioShar/LADDs
+  - samsongourevitch/rev_udm
   - darioShar/DLPM
   - darioShar/DMPM
   - darioShar/PDMP
