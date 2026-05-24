@@ -13,14 +13,12 @@ nav_order: 4
 - Organizer: Diffusion models reading group, INRIA Paris (2025)
 - Organizer: Sakana AI research retreat (2025)
 
-
 ## Research Visit
 
 **Universita di Padova**  
 Departments of Mathematics and Physics & Astronomy, Italy (March 2025)
 
 Initiated a joint mathematics/physics project on diffusion-based generative models for cosmology with Giovanni Conforti.
-
 
 ## Teaching
 
@@ -73,8 +71,6 @@ Initiated a joint mathematics/physics project on diffusion-based generative mode
     </tbody>
   </table>
 </div>
-
-
 
 ## Selected Workshops and Schools
 

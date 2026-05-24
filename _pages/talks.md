@@ -10,7 +10,8 @@ nav_order: 4
 {% assign talks = site.talks | sort: 'date' | reverse %}
 
 | Date | Title | Venue | Location |
-| --- | --- | --- | --- |
+| ---- | ----- | ----- | -------- |
+
 {% for talk in talks %}
 | {{ talk.date | date: "%b %d, %Y" }} | {{ talk.title }} | {{ talk.venue }} | {{ talk.location }} |
 {% endfor %}
