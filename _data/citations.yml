@@ -1,23 +1,27 @@
 metadata:
-  last_updated: '2026-05-13'
+  last_updated: '2026-05-27'
 papers:
   KJMzBTwAAAAJ:UeHWp8X0CEIC:
-    citations: 25
+    citations: 26
     title: Heavy-Tailed Diffusion with Denoising Levy Probabilistic Models
     year: '2025'
   KJMzBTwAAAAJ:W7OEmFMy1HYC:
     citations: 2
     title: Algorithm-and Data-Dependent Generalization Bounds for Diffusion Models
     year: '2025'
-  KJMzBTwAAAAJ:YsMSGLbcyi4C:
+  KJMzBTwAAAAJ:WF5omc3nYNoC:
     citations: 1
     title: Latent-Augmented Discrete Diffusion Models
     year: '2025'
+  KJMzBTwAAAAJ:_FxGoFyzp5QC:
+    citations: 0
+    title: 'Uniform Diffusion Models Revisited: Leave-One-Out Denoiser and Absorbing State Reformulation'
+    year: '2026'
   KJMzBTwAAAAJ:u-x6o8ySG0sC:
-    citations: 9
+    citations: 10
     title: Piecewise deterministic generative models
     year: '2024'
   KJMzBTwAAAAJ:zYLM7Y9cAGgC:
-    citations: 13
+    citations: 16
     title: 'Bit-Level Discrete Diffusion with Markov Probabilistic Models: An Improved Framework with Sharp Convergence Bounds under Minimal Assumptions'
     year: '2025'
