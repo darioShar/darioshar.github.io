@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-05-27'
+  last_updated: '2026-06-10'
 papers:
   KJMzBTwAAAAJ:UeHWp8X0CEIC:
-    citations: 26
+    citations: 28
     title: Heavy-Tailed Diffusion with Denoising Levy Probabilistic Models
     year: '2025'
   KJMzBTwAAAAJ:W7OEmFMy1HYC:
-    citations: 2
+    citations: 3
     title: Algorithm-and Data-Dependent Generalization Bounds for Diffusion Models
     year: '2025'
   KJMzBTwAAAAJ:WF5omc3nYNoC:
