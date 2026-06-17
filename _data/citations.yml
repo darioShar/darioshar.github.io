@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-10'
+  last_updated: '2026-06-17'
 papers:
   KJMzBTwAAAAJ:UeHWp8X0CEIC:
     citations: 28
@@ -22,6 +22,6 @@ papers:
     title: Piecewise deterministic generative models
     year: '2024'
   KJMzBTwAAAAJ:zYLM7Y9cAGgC:
-    citations: 16
+    citations: 17
     title: 'Bit-Level Discrete Diffusion with Markov Probabilistic Models: An Improved Framework with Sharp Convergence Bounds under Minimal Assumptions'
     year: '2025'
