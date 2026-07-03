@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: PhD student at INRIA Paris working on diffusion-based generative models, statistics, and machine learning.
+description: PhD researcher at INRIA Paris working on generative modeling, efficient generation, and diffusion models.
 subtitle: <a href='https://www.inria.fr/en'>INRIA Paris</a> · Sierra Project Team
 
 profile:
@@ -10,9 +10,8 @@ profile:
   image: dario.png
   image_circular: false
   more_info: >
-    <p>PhD Student</p>
-    <p>INRIA Paris</p>
-    <p>Paris, France</p>
+    <p>PhD researcher in generative modeling</p>
+    <p>Efficient generation · discrete diffusion · model systems</p>
 
 selected_papers: true
 # epistemic_stance_title: Epistemic Stance
@@ -33,13 +32,11 @@ latest_posts:
   limit: 5
 ---
 
-I am a final-year PhD student at INRIA Paris ([Sierra Project Team](https://sierra-mlopt.github.io), led by [Francis Bach](https://www.di.ens.fr/~fbach/)). I work under the supervision of [Umut Simsekli](https://www.di.ens.fr/umut.simsekli/) and [Alain Durmus](https://alain.perso.math.cnrs.fr).
+I am a PhD researcher at INRIA Paris, in the [Sierra Project Team](https://sierra-mlopt.github.io), led by [Francis Bach](https://www.di.ens.fr/~fbach/). I have been advised by [Umut Simsekli](https://www.di.ens.fr/umut.simsekli/) and [Alain Durmus](https://alain.perso.math.cnrs.fr).
+
+My research is in probabilistic generative modeling, especially continuous and discrete diffusion models. Recently, my focus has shifted toward efficient structured generation: hybrid autoregressive/diffusion methods, improved algorithms, inference-time acceleration with parallel generation or distillation, and robust evaluation loops for these systems.
 
 Before that, I obtained an MSc in Mathematics from the University of Oxford and a BSc/MSc from Ecole Polytechnique.
-
-My work focuses on **methodology for generative models**, especially continuous and discrete diffusion models.
-
-At the moment, I am especially interested in discrete diffusion models as a compelling route toward faster generation, enabling multi-token generation per network call (see, e.g., [Mercury](https://www.inceptionlabs.ai/blog/introducing-mercury-2)). Yet, they admit important unresolved limitations, leaving substantial room for new ideas.
 
 <!-- For instance, I am interested in distillation of such models; trajectory-based methods appear less adequate because of the necessary factored modelling choice. This fundamentally differs from the continuous setting, where you can (more or less) pushforward any base distribution $p_0$ to a target distribution $p_1$ with a smooth function (up to regularity constraints). Work in progress! -->
 
