@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-06-17'
+  last_updated: '2026-07-03'
 papers:
   KJMzBTwAAAAJ:UeHWp8X0CEIC:
-    citations: 28
+    citations: 29
     title: Heavy-Tailed Diffusion with Denoising Levy Probabilistic Models
     year: '2025'
   KJMzBTwAAAAJ:W7OEmFMy1HYC:
@@ -22,6 +22,6 @@ papers:
     title: Piecewise deterministic generative models
     year: '2024'
   KJMzBTwAAAAJ:zYLM7Y9cAGgC:
-    citations: 17
+    citations: 18
     title: 'Bit-Level Discrete Diffusion with Markov Probabilistic Models: An Improved Framework with Sharp Convergence Bounds under Minimal Assumptions'
     year: '2025'
