@@ -11,7 +11,6 @@ profile:
   image_circular: false
   more_info: >
     <p>PhD researcher in generative modeling</p>
-    <p>Efficient generation · discrete diffusion · model systems</p>
 
 selected_papers: true
 # epistemic_stance_title: Epistemic Stance
