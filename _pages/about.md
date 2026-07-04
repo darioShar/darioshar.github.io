@@ -39,4 +39,4 @@ Before that, I obtained an MSc in Mathematics from the University of Oxford and 
 
 <!-- For instance, I am interested in distillation of such models; trajectory-based methods appear less adequate because of the necessary factored modelling choice. This fundamentally differs from the continuous setting, where you can (more or less) pushforward any base distribution $p_0$ to a target distribution $p_1$ with a smooth function (up to regularity constraints). Work in progress! -->
 
-More details can be found in my [CV](/assets/pdf/dario_resume.pdf).
+More details can be found in my [CV](/files/dario_resume.pdf).
