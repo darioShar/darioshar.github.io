@@ -1,6 +1,10 @@
 metadata:
-  last_updated: '2026-07-13'
+  last_updated: '2026-07-15'
 papers:
+  KJMzBTwAAAAJ:LkGwnXOMwfcC:
+    citations: 1
+    title: Latent-Augmented Discrete Diffusion Models
+    year: '2026'
   KJMzBTwAAAAJ:UeHWp8X0CEIC:
     citations: 28
     title: Heavy-Tailed Diffusion with Denoising Levy Probabilistic Models
@@ -8,10 +12,6 @@ papers:
   KJMzBTwAAAAJ:W7OEmFMy1HYC:
     citations: 6
     title: Algorithm-and Data-Dependent Generalization Bounds for Diffusion Models
-    year: '2025'
-  KJMzBTwAAAAJ:WF5omc3nYNoC:
-    citations: 1
-    title: Latent-Augmented Discrete Diffusion Models
     year: '2025'
   KJMzBTwAAAAJ:_FxGoFyzp5QC:
     citations: 0
