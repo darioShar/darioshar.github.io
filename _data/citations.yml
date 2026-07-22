@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-07-15'
+  last_updated: '2026-07-22'
 papers:
   KJMzBTwAAAAJ:LkGwnXOMwfcC:
     citations: 1
     title: Latent-Augmented Discrete Diffusion Models
     year: '2026'
   KJMzBTwAAAAJ:UeHWp8X0CEIC:
-    citations: 28
+    citations: 29
     title: Heavy-Tailed Diffusion with Denoising Levy Probabilistic Models
     year: '2025'
   KJMzBTwAAAAJ:W7OEmFMy1HYC:
