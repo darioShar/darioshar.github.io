@@ -33,10 +33,8 @@ latest_posts:
 
 I am a PhD researcher at INRIA Paris, in the [Sierra Project Team](https://sierra-mlopt.github.io), led by [Francis Bach](https://www.di.ens.fr/~fbach/). I have been advised by [Umut Simsekli](https://www.di.ens.fr/umut.simsekli/) and [Alain Durmus](https://alain.perso.math.cnrs.fr).
 
-My research is in probabilistic generative modeling, especially continuous and discrete diffusion models. Recently, my focus has shifted toward efficient structured generation: hybrid autoregressive/diffusion methods, improved algorithms, inference-time acceleration with parallel generation or distillation, and robust evaluation loops for these systems.
+My research is in probabilistic generative modeling, more precisely, continuous and discrete diffusion models. I am currenty exploring hybrid autoregressive/diffusion methods, distillation, and overall improved algorithms for inference-time acceleration.
 
 Before that, I obtained an MSc in Mathematics from the University of Oxford and a BSc/MSc from Ecole Polytechnique.
 
 <!-- For instance, I am interested in distillation of such models; trajectory-based methods appear less adequate because of the necessary factored modelling choice. This fundamentally differs from the continuous setting, where you can (more or less) pushforward any base distribution $p_0$ to a target distribution $p_1$ with a smooth function (up to regularity constraints). Work in progress! -->
-
-More details can be found in my [CV](/files/dario_resume.pdf).
