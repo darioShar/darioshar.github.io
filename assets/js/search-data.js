@@ -680,13 +680,6 @@ ninja.data = [{
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/2024-maa106/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/files/dario_resume.pdf", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
